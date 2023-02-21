@@ -1,8 +1,10 @@
-import sys, pygame
+import sys, pygame, random
 pygame.init()
 
 size = width, height = 1920, 1080
-speed = [2, 2]
+A = random.randint(2, 10)
+B = random.randint(2, 10)
+speed = [10, 10]
 black = 0, 0, 0
 
 screen = pygame.display.set_mode(size)
